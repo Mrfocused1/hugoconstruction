@@ -1,0 +1,20 @@
+{
+  "name": "Hugo Harrison",
+  "short_name": "Hugo Harrison",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#15140f",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}

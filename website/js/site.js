@@ -47,10 +47,23 @@
       panel.classList.toggle('is-open', open);
     });
   });
+  var viaKeyboard = false;
+  toggle.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') viaKeyboard = true; });
   function setMenu(open) {
+    var was = menu.classList.contains('is-open');
+    if (open && !was) {   // the overlay grows out of the toggle, wherever it sits
+      var r = toggle.getBoundingClientRect();
+      menu.style.setProperty('--ox', Math.round(r.left + r.width / 2) + 'px');
+      menu.style.setProperty('--oy', Math.round(r.top + r.height / 2) + 'px');
+    }
     menu.classList.toggle('is-open', open);
     toggle.setAttribute('aria-expanded', String(open));
+    document.documentElement.classList.toggle('nav-open', open);
+    toggle.querySelector('.sr').textContent = open ? 'Close menu' : 'Menu';
     if (!open) closeDrops();
+    if (open && !was && viaKeyboard) { var first = menu.querySelector('.nav__link'); if (first) setTimeout(function () { first.focus({ preventScroll: true }); }, 350); }   // keyboard users land in the menu
+    viaKeyboard = false;
+    if (!open && was && menu.contains(document.activeElement)) toggle.focus({ preventScroll: true });
   }
   toggle.addEventListener('click', function () { setMenu(!menu.classList.contains('is-open')); });
   nav.addEventListener('click', function (e) { if (e.target.closest('a')) { closeDrops(); setMenu(false); } });
