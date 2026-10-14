@@ -1,0 +1,6 @@
+# Local study copy of a third-party website — never publish
+terminal-industries-local/
+
+# Editor / OS / app clutter
+.DS_Store
+*~lock~

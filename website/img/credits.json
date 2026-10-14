@@ -1,0 +1,108 @@
+[
+  {
+    "file": "img/card-small.jpg",
+    "type": "photo",
+    "pexels_id": 18111292,
+    "photographer": "Joaquin Carfagna",
+    "photographer_url": "https://www.pexels.com/@joaquin-carfagna-3131171",
+    "url": "https://www.pexels.com/photo/workers-in-reflective-clothing-18111292/",
+    "description": "Group of construction workers in safety gear managing a site in London."
+  },
+  {
+    "file": "img/card-home.jpg",
+    "type": "photo",
+    "pexels_id": 14078227,
+    "photographer": "Ryan Collis",
+    "photographer_url": "https://www.pexels.com/@ryan-collis-179324118",
+    "url": "https://www.pexels.com/photo/city-street-between-houses-14078227/",
+    "description": "Serene morning view of an English suburban street lined with charming red-brick houses in Farnham."
+  },
+  {
+    "file": "img/card-commercial.jpg",
+    "type": "photo",
+    "pexels_id": 32664436,
+    "photographer": "Sarthak Maji",
+    "photographer_url": "https://www.pexels.com/@sarthak-maji-2152979497",
+    "url": "https://www.pexels.com/photo/cranes-and-skyscrapers-london-architecture-scene-32664436/",
+    "description": "A construction crane stands near The Shard in London, showcasing modern architecture amidst a foggy skyline."
+  },
+  {
+    "file": "img/feature-groundworks.jpg",
+    "type": "photo",
+    "pexels_id": 37552518,
+    "photographer": "Leticia Golubov",
+    "photographer_url": "https://www.pexels.com/@leticia-golubov-1454213895",
+    "url": "https://www.pexels.com/photo/modern-construction-site-at-london-stadium-37552518/",
+    "description": "Construction equipment at work outside a London stadium, showcasing modern architecture."
+  },
+  {
+    "file": "img/feature-structure.jpg",
+    "type": "photo",
+    "pexels_id": 7418021,
+    "photographer": "Keith",
+    "photographer_url": "https://www.pexels.com/@keith7",
+    "url": "https://www.pexels.com/photo/buildings-under-a-cloudy-sky-7418021/",
+    "description": "Contemporary architecture in London's New Union Wharf captured on a clear day."
+  },
+  {
+    "file": "img/feature-management.jpg",
+    "type": "photo",
+    "pexels_id": 36645140,
+    "photographer": "Efe Kuyu",
+    "photographer_url": "https://www.pexels.com/@efebeydersiniz",
+    "url": "https://www.pexels.com/photo/london-cityscape-with-rooftop-construction-36645140/",
+    "description": "Aerial view of a London rooftop construction site amidst urban skyline."
+  },
+  {
+    "file": "video/feature-lifting.mp4",
+    "type": "video",
+    "pexels_id": 11865839,
+    "videographer": "Mylo Kaye",
+    "videographer_url": "https://www.pexels.com/@mylokaye",
+    "url": "https://www.pexels.com/video/dusk-over-manchester-11865839/"
+  },
+  {
+    "file": "video/footer.mp4",
+    "type": "video",
+    "pexels_id": 27273538,
+    "videographer": "David Pickup |  Advertising & Marketing  \ud83c\uddec\ud83c\udde7",
+    "videographer_url": "https://www.pexels.com/@davidpickup",
+    "url": "https://www.pexels.com/video/building-new-houses-in-leeds-27273538/"
+  },
+  {
+    "file": "video/hero.mp4",
+    "type": "video",
+    "pexels_id": 20571228,
+    "videographer": "David Pickup |  Advertising & Marketing  \ud83c\uddec\ud83c\udde7",
+    "videographer_url": "https://www.pexels.com/@davidpickup",
+    "url": "https://www.pexels.com/video/cranes-in-the-leeds-skyline-20571228/"
+  },
+  {
+    "file": "img/hero-site.jpg",
+    "type": "photo",
+    "pexels_id": 4019344,
+    "photographer": "AfroRomanzo",
+    "photographer_url": "https://www.pexels.com/@afroromanzo",
+    "url": "https://www.pexels.com/photo/the-battersea-power-station-under-construction-4019344/",
+    "description": "Battersea Power Station during redevelopment with cranes against a vibrant sunset sky in London, England.",
+    "note": "hero-drawing.jpg is a line-drawing derived from this photo"
+  },
+  {
+    "file": "img/card-courses.jpg",
+    "type": "photo",
+    "pexels_id": 36443367,
+    "photographer": "Daniel  Wells",
+    "photographer_url": "https://www.pexels.com/@danielwells67",
+    "url": "https://www.pexels.com/photo/construction-worker-jet-washing-building-in-manchester-36443367/",
+    "description": "A construction worker jet washes stonework in Manchester, UK. Clear blue sky background."
+  },
+  {
+    "file": "img/feature-training.jpg",
+    "type": "photo",
+    "pexels_id": 11827689,
+    "photographer": "Zekai Zhu",
+    "photographer_url": "https://www.pexels.com/@zekai-zhu-214984943",
+    "url": "https://www.pexels.com/photo/photo-of-grey-pipes-with-a-yellow-machine-in-the-background-11827689/",
+    "description": "Scaffolding and machinery in an industrial setting with people in the background in Edinburgh, Scotland."
+  }
+]
